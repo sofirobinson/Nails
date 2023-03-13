@@ -1,0 +1,197 @@
+*{
+    margin: 0.1vw;
+}
+main{
+    background: rgb(226,195,158);
+background: linear-gradient(350deg, rgba(226,195,158,1) 0%, rgba(232,105,168,1) 50%, rgba(44,51,140,0.6225840678068102) 100%);
+box-shadow: 3px 2px 25px -1px #141412;
+padding: 2vw;
+border: 0.1vw solid blueviolet;
+}
+.nav{
+    font-size: 110%;
+}
+.encabezado{
+    display: flex;
+    width: auto;
+    height: 15cm;
+    background-image: url(https://i.pinimg.com/originals/bb/37/34/bb3734297bc3a8dc9704eb2f70b2df4f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: 70%;
+    background-color: rgba(194, 202, 210, 0.75);
+
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 500%;
+    text-shadow: -1px 0 rgb(252, 250, 250), 0 1px rgb(252, 249, 249),
+	  1px 0 rgb(249, 247, 247), 0 -1px rgb(251, 247, 247);
+      text-shadow: 0 0 0.2em rgb(251, 248, 248), 0 0 0.2em rgb(248, 243, 243),
+      0 0 0.2em rgb(241, 238, 238);
+      font-family: 'Fredericka the Great', cursive;
+font-family: 'Righteous', cursive;
+      margin: 5cm;
+}
+.servicios{
+    display: flex;
+    width: 100%;
+    background-color: rgb(7, 5, 9);
+    opacity: rgba(2, 7, 12, 0.75);
+    border: 0.2cm solid rgb(159, 127, 167);
+    text-shadow: -1px 0 rgb(252, 250, 250), 0 1px rgb(252, 249, 249),
+	  1px 0 rgb(249, 247, 247), 0 -1px rgb(251, 247, 247);
+      text-shadow: 0 0 0.2em rgb(251, 248, 248), 0 0 0.2em rgb(248, 243, 243),
+      0 0 0.2em rgb(241, 238, 238);
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2cm;
+    color: rgb(57, 6, 129);
+    background-color: rgb(191, 166, 204);
+    border:solid rgb(122, 35, 156);
+    
+}
+.tendenciapromo{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+flex-grow: 2;
+
+}
+.carousel{
+    width: 18cm;
+    border-radius: 2cm;
+    box-shadow: 3px 2px 25px -1px #141412;
+}
+h4{
+    display: flex;
+    margin-left: 1cm;
+    font-size: 250%;
+    font-family:cursive;
+    text-shadow: -1px 0 rgb(252, 250, 250), 10px rgb(252, 249, 249),
+	  10px 0 rgb(249, 247, 247), 0 -6px rgb(251, 247, 247);
+      text-shadow: 0 0 0.2em rgb(251, 248, 248), 0 0 0.20em rgb(248, 243, 243),
+      0 0 0.12em rgb(241, 238, 238);
+}
+img{
+    border-radius: 2cm;
+    
+}
+a:any-link{
+    color: rgb(219, 87, 144);
+}
+.img-fluid{
+    height: 12cm;
+    border-radius: 0cm;
+}
+.tendencia{
+    margin-top: 1cm;
+    font-family:cursive;
+    font-size: 200%;
+    margin-left: 3cm;
+}
+.tendencia b{
+    margin-right: 20cm;
+    text-shadow: -1px 0 rgb(252, 250, 250), 0 1px rgb(252, 249, 249),
+	  1px 0 rgb(249, 247, 247), 0 -1px rgb(251, 247, 247);
+      text-shadow: 0 0 0.2em rgb(251, 248, 248), 0 0 0.2em rgb(248, 243, 243),
+      0 0 0.2em rgb(241, 238, 238);
+      
+}
+.promo{
+    margin-left: 20.5cm;
+    margin-bottom: 0cm;
+    font-family:cursive;
+    font-size: 200%;
+    
+}
+.modelos{
+    margin-right: 20cm;
+    margin-left: 3cm;
+    font-family:cursive;
+    font-size: 200%;
+    margin-bottom: 2cm;
+}
+b{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-shadow: -1px 0 rgb(252, 250, 250), 0 1px rgb(252, 249, 249),
+	  1px 0 rgb(249, 247, 247), 0 -1px rgb(251, 247, 247);
+      text-shadow: 0 0 0.2em rgb(251, 248, 248), 0 0 0.2em rgb(248, 243, 243),
+      0 0 0.2em rgb(241, 238, 238);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2cm;
+    opacity: rgba(82, 132, 182, 0.4)
+}
+.carousel p{
+    color: black;
+    text-shadow: -1px 0 rgb(252, 250, 250), 0 1px rgb(252, 249, 249),
+	  1px 0 rgb(249, 247, 247), 0 -1px rgb(251, 247, 247);
+      text-shadow: 0 0 0.2em rgb(251, 248, 248), 0 0 0.2em rgb(248, 243, 243),
+      0 0 0.2em rgb(241, 238, 238);
+}
+.carousel h5{
+    color: black;
+    text-shadow: -1px 0 rgb(252, 250, 250), 0 1px rgb(252, 249, 249),
+	  1px 0 rgb(249, 247, 247), 0 -1px rgb(251, 247, 247);
+      text-shadow: 0 0 0.2em rgb(251, 248, 248), 0 0 0.2em rgb(248, 243, 243),
+      0 0 0.2em rgb(241, 238, 238);
+}
+@media (max-width: 1020px) {
+    .servicios{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(188, 162, 188);
+        margin-left:-4vw;
+        
+} 
+.cuerpo{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+.promo{
+    margin-left: 10vw;
+}
+.modelos{
+    margin-left: 10vw;
+}
+.tendencia{
+    margin-left: 10vw;
+}
+.promo b{
+    margin-left: -150vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.carousel{
+    width: 10cm;
+
+}
+}

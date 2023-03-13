@@ -1,0 +1,134 @@
+*{
+    margin: 0.1vw;
+}
+main{
+background: rgb(226,195,158);
+background: linear-gradient(350deg, rgba(226,195,158,1) 0%, rgba(232,105,168,1) 50%, rgba(44,51,140,0.6225840678068102) 100%);
+box-shadow: 3px 2px 25px -1px #141412;
+padding: 2vw;
+border: 0.1vw solid blueviolet;
+padding-bottom: 13vw;
+}
+.nav{
+    font-size: 110%;
+}
+a:any-link{
+    color: rgb(219, 87, 144);
+}
+b{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 400%;
+    font-family: 'Amatic SC', cursive;
+}
+form{
+    border: solid rgb(78, 36, 114) 0.2vw;
+    border-radius: 4vw;
+    background-image: url(https://img.freepik.com/free-vector/collection-done-manicure-illustrations_52683-43440.jpg?w=1380&t=st=1676413546~exp=1676414146~hmac=8a4193b5746b6764c234148f9e13a22f35affc17fc84c357fe12e6ea26fe0e39);
+    opacity: 75%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: 75%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto; 
+    padding: 2vw;
+}
+.contacto{
+    display: flex;
+    margin: 2vw;
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: -4.1vw;
+    
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2vw;
+}
+.redes img{
+   margin-left: 16vw;
+   width: 3vw;
+   height: auto;
+   
+}
+.redes a{
+    color: #141412;
+}
+iframe{
+    border-radius: 3vw;
+}
+
+@media (max-width: 1020px) {
+    .fechahora{
+        margin-left: 2cm;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+} 
+b{
+    font-size: 300%;
+    margin: 2vw;
+}
+footer{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.redes img{
+    width: 10vw;
+    margin: 1vw;
+}
+iframe{
+    width: 80vw;
+    height: 80vw;
+}
+}
+
+input{
+    border-radius: 0.3cm;
+}
+button{
+    border-radius: 1cm;
+}
+button:hover{
+    color: #f4f4f2;
+    background-color: #141412;
+}
+label{
+    color: rgb(4, 4, 4);
+    font-size: large;
+    text-shadow: -1px 0 rgb(252, 250, 250), 0 1px rgb(252, 249, 249),
+	  1px 0 rgb(249, 247, 247), 0 -1px rgb(251, 247, 247);
+      text-shadow: 0 0 0.2em rgb(251, 248, 248), 0 0 0.2em rgb(248, 243, 243),
+      0 0 0.2em rgb(241, 238, 238);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: rgba(82, 132, 182, 0.4);
+    height: 5vw;
+}
